@@ -1,0 +1,6 @@
+draw_self()
+draw_set_colour(fontcolor)
+draw_set_font(log)
+draw_text(player.x+65,player.y-90,player.direction)
+draw_text(player.x+65,player.y-105,player.xdir)
+draw_text(player.x+65,player.y-120,player.ydir)
